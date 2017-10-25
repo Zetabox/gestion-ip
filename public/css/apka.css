@@ -1,0 +1,172 @@
+.onglet
+        {
+                display:inline-block;
+                margin-left:1px;
+                margin-right:1px;
+                padding:3px;
+                border:0px solid black;
+                cursor:pointer;
+                width:100px;
+                height:28px;
+                font-weight: bold;
+                background-image: url('/img/fd_bleu_onglet.png');
+        }
+
+        .onglet_0
+        {
+                
+                border-bottom:1px solid black;
+                color:#FFFFFF;
+               
+        }
+        .onglet_1
+        {
+                
+                border-bottom:0px solid black;
+                color:#FAA61A;
+                font-family: "Arial-BoldMT","Arial Bold","Arial";
+                padding-bottom:4px;
+        }
+        .contenu_onglet
+        {
+                background-color:#FFFFFF;
+                border:1px solid black;
+                margin-top:-1px;
+                padding:5px;
+                display:none;
+        }
+.title_apka
+        {
+                font-family: "Arial-BoldMT","Arial Bold","Arial";
+                color:#FAA61A;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 18px;
+                text-align: left;
+                line-height: normal;
+        } 
+.title_apka1
+        {
+                font-family: "Arial-BoldMT","Arial Bold","Arial";
+                color:#365376;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 18px;
+                text-align: left;
+                line-height: normal;
+        } 
+        
+.text_apka1 {
+  font-family: georgia, serif;
+  font-size: 19px;
+  color: #365376;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: left;
+  letter-spacing: 0.8px;
+  line-height: 21px;
+}
+
+.text_apka {
+  font-family: georgia, serif;
+  font-size: 19px;
+  color: #FAA61A;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: left;
+  letter-spacing: 0.8px;
+  line-height: 21px;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+.tr_apka:hover {
+          background-color: #FAA61A;
+        }
+.ax_shape {
+    font-family: "ArialMT","Arial";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    line-height: normal;
+}
+.ax_paragraph {
+    font-family: "ArialMT","Arial";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+    text-align: left;
+    line-height: normal;
+}
+#u2 {
+    font-family: "Arial-BoldMT","Arial Bold","Arial";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FAA61A;
+}
+#u3 {
+    white-space: nowrap;
+}
+.bgapka {
+    font-family: "Bold";
+    background-color: #365376;
+    color: #FFFFFF;
+}
+.bgapkaTop {
+    font-family: "Arial-BoldMT","Arial Bold","Arial";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FAA61A;
+    background-color: #365376;
+    
+}
+.tableaux{
+  display:inline-block;
+  vertical-align:top;
+}
+
+.apkaButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+    box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59211), color-stop(1, #e69720));
+    background:-moz-linear-gradient(top, #f59211 5%, #e69720 100%);
+    background:-webkit-linear-gradient(top, #f59211 5%, #e69720 100%);
+    background:-o-linear-gradient(top, #f59211 5%, #e69720 100%);
+    background:-ms-linear-gradient(top, #f59211 5%, #e69720 100%);
+    background:linear-gradient(to bottom, #f59211 5%, #e69720 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f59211', endColorstr='#e69720',GradientType=0);
+    background-color:#f59211;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:4px 23px;
+    text-decoration:none;
+}
+.apkaButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e69720), color-stop(1, #f59211));
+    background:-moz-linear-gradient(top, #e69720 5%, #f59211 100%);
+    background:-webkit-linear-gradient(top, #e69720 5%, #f59211 100%);
+    background:-o-linear-gradient(top, #e69720 5%, #f59211 100%);
+    background:-ms-linear-gradient(top, #e69720 5%, #f59211 100%);
+    background:linear-gradient(to bottom, #e69720 5%, #f59211 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e69720', endColorstr='#f59211',GradientType=0);
+    background-color:#e69720;
+}
+.apkaButton:active {
+    position:relative;
+    top:1px;
+}

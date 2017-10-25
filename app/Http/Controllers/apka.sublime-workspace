@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"St",
+				"Storage"
+			],
+			[
+				"nb_ob",
+				"nb_ob_cl"
+			],
+			[
+				"ressource",
+				"ressource_obligation"
+			],
+			[
+				"nb",
+				"nb_max_user"
+			],
+			[
+				"userRo",
+				"userRoles"
+			],
+			[
+				"user",
+				"userRoles"
+			],
+			[
+				"rol",
+				"rolesListe"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"detail",
+				"detail_ob"
+			],
+			[
+				"obligation",
+				"obligation_detail"
+			],
+			[
+				"obligatio",
+				"obligation_detail"
+			],
+			[
+				"ress",
+				"ressource_obligation"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"casa",
+				"cascade"
+			],
+			[
+				"nb_",
+				"nb_sites"
+			],
+			[
+				"request",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettrelist.blade.php",
+			"settings":
+			{
+				"buffer_size": 1887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettrecreate.blade.php",
+			"settings":
+			{
+				"buffer_size": 2067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"about-section\">\n                       <div class=\"text-content\">\n                         <div class=\"span7 offset1\">\n                            @if(Session::has('success'))\n                              <div class=\"alert-box success\">\n                              <h2>{!! Session::get('success') !!}</h2>\n                              </div>\n                            @endif\n                            <div class=\"secure\">Chargement de la lettre</div>\n                            {!! Form::open(array('url'=>'admin/lettre','method'=>'POST', 'files'=>true)) !!}\n                            <input type=\"hidden\" name=\"domaine_id\" value=\"{{ $domaine->id }}\" />\n                             <div class=\"control-group\">\n                              <div class=\"controls\">\n                              {!! Form::file('image') !!}\n                          <p class=\"errors\">{!!$errors->first('image')!!}</p>\n                        @if(Session::has('error'))\n                        <p class=\"errors\">{!! Session::get('error') !!}</p>\n                        @endif\n                            </div>\n                            </div>\n                            <div id=\"success\"> </div>\n                          {!! Form::submit('Submit', array('class'=>'send-btn')) !!}\n                          {!! Form::close() !!}\n                          </div>\n                       </div>\n                    </div>\n\n\n\n                    \n\n      // getting all of the post data\n      $file = array('image' => Input::file('image'));\n      // setting up rules\n      $rules = array('image' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000\n      // doing the validation, passing post data, rules and the messages\n      $validator = Validator::make($file, $rules);\n      if ($validator->fails()) {\n        // send back to the page with the input data and errors\n        return Redirect::to('admin/lettre/create/1')->withInput()->withErrors($validator);\n      }\n      else {\n        // checking file is valid.\n        if (Input::file('image')->isValid()) {\n          $destinationPath = 'uploads'; // upload path\n          $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension\n          $fileName = rand(11111,99999).'.'.$extension; // renameing image\n          Input::file('image')->move($destinationPath, $fileName); // uploading file to given path\n          // sending back with message\n          Session::flash('success', 'Fichier téléchargé avec succès'); \n          return Redirect::to('admin/lettre/create/1');\n        }\n        else {\n          // sending back with error message.\n          Session::flash('error', 'Fichier invalide');\n          return Redirect::to('admin/lettre/create/1');\n        }\n      }\n",
+			"settings":
+			{
+				"buffer_size": 2778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AdminLettreTypeController.php",
+			"settings":
+			{
+				"buffer_size": 4429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 4546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AdminObligationController.php",
+			"settings":
+			{
+				"buffer_size": 6468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin.blade.php",
+			"settings":
+			{
+				"buffer_size": 2786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationcreate.blade.php",
+			"settings":
+			{
+				"buffer_size": 2717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettreedit.blade.php",
+			"settings":
+			{
+				"buffer_size": 2493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/LettreTypeFormRequest.php",
+			"settings":
+			{
+				"buffer_size": 531,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_06_01_191807_create_lettre_table.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/LettreTypeFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminnewclient.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Lettre.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/AdminObligationController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationlist.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/.env",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/admineditclient.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/AdminClientController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminclient.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/site.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/RessourceController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/admincategorielist.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/admincategorieupdate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/AdminCategorieController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AdminCategorieFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/CategorieRequestForm.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/ObligationController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/obligationlist.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/app.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/UserController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/useredit.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/usercreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/userslist.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/public/css/apka.css",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/my-app/www/js/index.js",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourcelist.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Ressource.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/UserFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/HasRole.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Intervention.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/home.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/interventioncreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/InterventionController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Services/Registrar.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/emails/password.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/public/css/app.css",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourceshow.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/obligationshow.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/obligationedit.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/sitecreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourcecreate2.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourcecreate1.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourcecreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/ObligationDetail.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/RessourceObligation.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/obligationcreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/adminlettre.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/AdminLettreTypeController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressourceend.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Obligation.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Site.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_07_142959_create_ressource_obligation.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_10_150851_create_interventions_table.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/RessourceFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/ressource.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/siteshow.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_07_142958_create_ressource_obligation.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_04_07_050137_create_obligations_details.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_05_062328_update_ressource.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_07_155245_update1_ressource.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/ObligationFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationcreate.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/obligation.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AdminNewClientFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Console/Commands/ControleObligation.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AddDetailFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/adminclient.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admineditclient.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AdminAddDetailFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Console/Kernel.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AdminObligationFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Console/Commands/Inspire.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationshow.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationedit.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AdminObligationEditFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/admincategorie.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/EditClientFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Domaine.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Categorie.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/errors/503.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/errors/404.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/siteedit.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/SiteController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_05_05_144235_update_obligation2.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/database/migrations/2015_04_07_090900_update_obligation1.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/routes.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/AddClientUserFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/SiteFormRequest.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/start.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/auth/register.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/User.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/siteadd.blade.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/Role.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/HomeController.php",
+		"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/Library/WebServer/Documents/tuto/app/Http/Controllers/AdminClientController.php",
+		"/Library/WebServer/Documents/tuto/resources/views/home.blade.php",
+		"/Library/WebServer/Documents/apka/app/Http/Controllers/AdminClientController.php",
+		"/Library/WebServer/Documents/apka/resources/views/auth/login.blade.php",
+		"/Library/WebServer/Documents/apka/app/Http/routes.php",
+		"/Library/WebServer/Documents/apka/app/Http/Controllers/Auth/AuthController.php",
+		"/Library/WebServer/Documents/.htaccess",
+		"/Users/jacqueshuntziger/Desktop/kleinhof/wp-content/themes/kleinhof/front-page.php",
+		"/Users/jacqueshuntziger/Desktop/boccaccio/site/book.blade.php",
+		"/Users/jacqueshuntziger/Desktop/EREDIA/tmp/header.tpl",
+		"/Users/jacqueshuntziger/Desktop/rp/rp/merveilles.royal-palace.com/app/lang/fr/shop.php",
+		"/Users/jacqueshuntziger/Desktop/rp/rp/merveilles.royal-palace.com/app/lang/fr/email.php",
+		"/Users/jacqueshuntziger/Desktop/rp/dev/restaurant.php",
+		"/Users/jacqueshuntziger/Desktop/piege-a-matignon.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"response",
+			"show",
+			"paginate(2)",
+			">\n",
+			"table-responsive",
+			"responsive",
+			"responsive-",
+			".'",
+			"obligation",
+			"catégorie",
+			"rh",
+			"()))",
+			"BoArial",
+			"\n",
+			"8e1225",
+			"#8e1225",
+			"990033",
+			"8c1528",
+			"#991328",
+			"over",
+			"B2162E",
+			"#B2162E",
+			"paque",
+			"prestige",
+			"appel",
+			"panier",
+			"fa-phone",
+			"fa fa-phone",
+			"18",
+			"prstige",
+			"photo",
+			"thea",
+			"prestige",
+			"pi",
+			"get_stylesheet_uri",
+			"wp_en",
+			"Ouverture",
+			"ouverture",
+			"Conforme",
+			"servez"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"76695d",
+			"transparent",
+			"76695d"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettrelist.blade.php",
+					"settings":
+					{
+						"buffer_size": 1887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettrecreate.blade.php",
+					"settings":
+					{
+						"buffer_size": 2067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1833,
+								1833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 2778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2090,
+								2160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "AdminLettreTypeController.php",
+					"settings":
+					{
+						"buffer_size": 4429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 4546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2270,
+								2270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 302.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "AdminObligationController.php",
+					"settings":
+					{
+						"buffer_size": 6468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin.blade.php",
+					"settings":
+					{
+						"buffer_size": 2786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1970,
+								1970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminobligationcreate.blade.php",
+					"settings":
+					{
+						"buffer_size": 2717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1222,
+								1154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/resources/views/admin/adminlettreedit.blade.php",
+					"settings":
+					{
+						"buffer_size": 2493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Requests/LettreTypeFormRequest.php",
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true
+}

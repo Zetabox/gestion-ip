@@ -1,0 +1,900 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"marques_usa_usage_"
+			],
+			[
+				"mar",
+				"marques_usa_usage_"
+			],
+			[
+				"pays",
+				"paysdesignes"
+			],
+			[
+				"payde",
+				"paysdesignes"
+			],
+			[
+				"Clas",
+				"ClassesMarqueRequest"
+			],
+			[
+				"Class",
+				"ClassesMarqueRequest"
+			],
+			[
+				"titu",
+				"titulaire"
+			],
+			[
+				"sele",
+				"selectpicker"
+			],
+			[
+				"imp",
+				"impression_marque"
+			],
+			[
+				"cli",
+				"ClientController"
+			],
+			[
+				"Req",
+				"UserRequestForm"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"Client",
+				"ClientController"
+			],
+			[
+				"CLi",
+				"ClientController"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Clien",
+				"ClientController"
+			],
+			[
+				"marques_usa_ua",
+				"marques_usa_usage_"
+			],
+			[
+				"exteni",
+				"extension"
+			],
+			[
+				"date",
+				"dateNow"
+			],
+			[
+				"marque",
+				"marques_usa_usage"
+			],
+			[
+				"marqu",
+				"marques_usa_usage"
+			],
+			[
+				"SetBa",
+				"SetBadge"
+			],
+			[
+				"paysm",
+				"paysmarque"
+			],
+			[
+				"pay",
+				"paysmarque"
+			],
+			[
+				"pa",
+				"paysmarque"
+			],
+			[
+				"marques",
+				"marques_usa"
+			],
+			[
+				"Upda",
+				"UpdateMarqueFormRequest"
+			],
+			[
+				"Mar",
+				"MarqueFormRequest"
+			],
+			[
+				"maru",
+				"marque_id"
+			],
+			[
+				"Pays",
+				"PaysMarque"
+			],
+			[
+				"da",
+				"dateNow"
+			],
+			[
+				"cla",
+				"classe_all"
+			],
+			[
+				"Opera",
+				"OperationFormRequest"
+			],
+			[
+				"Requ",
+				"Requests"
+			],
+			[
+				"titi",
+				"titulaires"
+			],
+			[
+				"Re",
+				"Requests"
+			],
+			[
+				"Manda",
+				"MandataireFormRequest"
+			],
+			[
+				"ex",
+				"extension"
+			],
+			[
+				"date_",
+				"date_enregistrement"
+			],
+			[
+				"num",
+				"num_national"
+			],
+			[
+				"Classe",
+				"ClasseMarque"
+			],
+			[
+				"titula",
+				"titulaire"
+			],
+			[
+				"list",
+				"liste_titulaire"
+			],
+			[
+				"lis",
+				"liste_titulaire"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"docume",
+				"documents"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"date_det",
+				"date_depot"
+			],
+			[
+				"Reques",
+				"Request"
+			],
+			[
+				"clas",
+				"classe"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"marq",
+				"marques_ref"
+			],
+			[
+				"titulaire",
+				"Titulaire"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"nb_obli",
+				"nb_obligations_30"
+			],
+			[
+				"nb",
+				"nb_obligations_30_id"
+			],
+			[
+				"resul",
+				"results_30"
+			],
+			[
+				"ressource",
+				"ressource_id"
+			],
+			[
+				"ress",
+				"ressource"
+			],
+			[
+				"edi",
+				"edit_obligation"
+			],
+			[
+				"edit_",
+				"edit_ressource"
+			],
+			[
+				"rea",
+				"read_ressource"
+			],
+			[
+				"att",
+				"attachPermission"
+			],
+			[
+				"read",
+				"read_obligation"
+			],
+			[
+				"sel",
+				"selection"
+			],
+			[
+				"slec",
+				"selection"
+			],
+			[
+				"sear",
+				"searchTerms"
+			],
+			[
+				"nb_ob",
+				"nb_obligations_totale"
+			],
+			[
+				"nb_obliga",
+				"nb_obligations"
+			],
+			[
+				"nb_obl",
+				"nb_obligations_7"
+			],
+			[
+				"nb_",
+				"nb_obligations_retard"
+			],
+			[
+				"nb_obligation_",
+				"nb_obligations_retard"
+			],
+			[
+				"ord",
+				"orderBy"
+			],
+			[
+				"nb_uti",
+				"nb_utilisateurs"
+			],
+			[
+				"en",
+				"end_contrat"
+			],
+			[
+				"con",
+				"contrat"
+			],
+			[
+				"Sie",
+				"SiteUser"
+			],
+			[
+				"Site",
+				"SiteUser"
+			],
+			[
+				"site",
+				"Site_User"
+			],
+			[
+				"sit",
+				"sites"
+			],
+			[
+				"Si",
+				"SiteUser"
+			],
+			[
+				"Sear",
+				"SearchFormRequest"
+			],
+			[
+				"oblig",
+				"obligation_detail_id"
+			],
+			[
+				"obliga",
+				"obligations_details"
+			],
+			[
+				"obli",
+				"obligations_details"
+			],
+			[
+				"sty",
+				"STYLE	Tag"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"obligation",
+				"obligations_details"
+			],
+			[
+				"SE",
+				"SearchFormRequest"
+			],
+			[
+				"filen",
+				"filename"
+			],
+			[
+				"St",
+				"Storage"
+			],
+			[
+				"userRo",
+				"userRoles"
+			],
+			[
+				"user",
+				"userRoles"
+			],
+			[
+				"rol",
+				"rolesListe"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"detail",
+				"detail_ob"
+			],
+			[
+				"obligatio",
+				"obligation_detail"
+			],
+			[
+				"casa",
+				"cascade"
+			],
+			[
+				"request",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 4081,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@extends('app')\n\n@section('content')\n<div class=\"container\">\n    <div class=\"panel-group\" id=\"accordion\">\n\n    @if($alerteoperations->count()>0)\n       <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h4 class=\"panel-title\">\n                    <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse_operation\">{{ Lang::get('texts.Operation_en_cours') }}  <span class=\"badge\">{{ $alerteoperations->count() }}</span></a>\n                </h4>\n            </div>\n            <div id=\"collapse_operation\" class=\"panel-collapse collapse\">\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table  class=\"defaultTable sar-table\" style=\"table-layout:auto;\" id=\"tableMarques\" data-show-columns=\"true\" data-language=\"fr\" data-search=\"true\" data-pagination=\"true\" data-id-field=\"id\" data-toggle=\"table\">\n                            <thead>\n                                <TR>\n                                    <th data-field=\"Name\" data-sortable=\"true\">{{Lang::get('texts.Name')}}</TH>\n                                    <th data-field=\"Description\" data-sortable=\"true\">{{Lang::choice('texts.Description',1)}}</TH>\n                                    <th data-field=\"Date\" data-sortable=\"true\">Date</TH>\n                                </TR>\n                            </thead>\n                            <tbody>\n                            @foreach ($alerteoperations as $alerte)\n                            <TR>\n                                <TD><a href='/marques/operations/{{ $alerte->marque_id }}'>{{ $alerte->marque->name }}</a> </TD>\n                                <TD>{{ $alerte->description}}</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($alerte->date_alerte){{ date('d/m/Y',strtotime($alerte->date_alerte)) }}@endif</TD>\n                            </TR>\n                            @endforeach\n                            </tbody>\n                        </TABLE>\n                    </div>\n                </div>\n            </div>\n        </div>\n    @endif\n    @if($marques->count()>0)\n       <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h4 class=\"panel-title\">\n                    <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse_marques\">{{ Lang::choice('texts.Marques',$marques->count()) }} {{ Lang::get('texts.Arenouveler') }} <span class=\"badge\">{{ $marques->count() }}</span></a>\n                </h4>\n            </div>\n            <div id=\"collapse_marques\" class=\"panel-collapse collapse\">\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table  class=\"defaultTable sar-table\" style=\"table-layout:auto;\" id=\"tableMarques\" data-show-columns=\"true\" data-language=\"fr\" data-search=\"true\" data-pagination=\"true\" data-id-field=\"id\" data-toggle=\"table\" data-show-toggle=\"true\"  data-reorderable-columns=\"true\" data-cookie=\"true\"\n               data-cookie-id-table=\"saveId\" data-show-export=\"true\" >\n                        <thead>\n                            <TR>\n                                <th data-field=\"Name\" data-sortable=\"true\">{{Lang::choice('texts.Marques',1)}}</TH>\n                                <th data-field=\"Titulaire\" data-sortable=\"true\">{{Lang::choice('texts.Titulaires',1)}}</TH>\n                                <th data-field=\"Mandataire\" data-sortable=\"true\">{{Lang::choice('texts.Mandataires',1)}}</TH>\n                                <TH data-field=\"Date_depot\" data-sortable=\"true\">{{Lang::get('texts.Date_depot')}}</TH>\n                                <TH data-field=\"Date_enregistrement\" data-sortable=\"true\">{{Lang::get('texts.Date_enregistrement')}}</TH>\n                                <TH data-field=\"Date_effet\" data-sortable=\"true\">{{Lang::get('texts.Date_effet')}}</TH>\n                                <TH data-field=\"Date_expiration\" data-sortable=\"true\">{{Lang::get('texts.Date_expiration')}}</TH>\n                            </TR>\n                        </thead>\n                        <tbody>\n                        @foreach ($marques as $result)\n                            <TR>\n                                <TD><a href='/marques/edit/{{ $result->id }}'>{{ $result->name}}</A></TD>\n                                <TD>@if($result->titulaire->name<>\"\") {{ $result->titulaire->name }} @else {{ $result->titulaire->company_name }}  @endif</TD>\n                                <TD>{{ $result->mandataire->name }} </TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_depot){{ date('d/m/Y',strtotime($result->date_depot)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_enregistrement){{ date('d/m/Y',strtotime($result->date_enregistrement)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_effet){{ date('d/m/Y',strtotime($result->date_effet)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_expiration){{ date('d/m/Y',strtotime($result->date_expiration)) }}@endif</TD>\n                            </TR>\n                        @endforeach\n                    </tbody>\n                    </TABLE>\n                    </div>\n                </div>\n            </div>\n        </div>\n    @endif\n    @if($models->count()>0)\n       <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h4 class=\"panel-title\">\n                    <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse_models\">{{ Lang::choice('texts.Modeles',$models->count()) }} {{ Lang::get('texts.Arenouveler') }}  <span class=\"badge\">{{ $models->count() }}</span></a>\n                </h4>\n            </div>\n            <div id=\"collapse_models\" class=\"panel-collapse collapse\">\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table  class=\"defaultTable sar-table\" style=\"table-layout:auto;\" id=\"tableMarques\" data-show-columns=\"true\" data-language=\"fr\" data-search=\"true\" data-pagination=\"true\" data-id-field=\"id\" data-toggle=\"table\" data-show-toggle=\"true\"  data-reorderable-columns=\"true\" data-cookie=\"true\"\n               data-cookie-id-table=\"saveId\" data-show-export=\"true\" >\n                        <thead>\n                            <TR>\n                                <th data-field=\"Name\" data-sortable=\"true\">{{Lang::choice('texts.Modeles',1)}}</TH>\n                                <th data-field=\"Titulaire\" data-sortable=\"true\">{{Lang::choice('texts.Titulaires',1)}}</TH>\n                                <th data-field=\"Mandataire\" data-sortable=\"true\">{{Lang::choice('texts.Mandataires',1)}}</TH>\n                                <TH data-field=\"Date_depot\" data-sortable=\"true\">{{Lang::get('texts.Date_depot')}}</TH>\n                                <TH data-field=\"Date_enregistrement\" data-sortable=\"true\">{{Lang::get('texts.Date_enregistrement')}}</TH>\n                                <TH data-field=\"Date_effet\" data-sortable=\"true\">{{Lang::get('texts.Date_effet')}}</TH>\n                                <TH data-field=\"Date_expiration\" data-sortable=\"true\">{{Lang::get('texts.Date_expiration')}}</TH>\n                            </TR>\n                        </thead>\n                        <tbody>\n                        @foreach ($models as $result)\n                            <TR>\n                                <TD><a href='/marques/edit/{{ $result->id }}'>{{ $result->name}}</A></TD>\n                                <TD>@if($result->titulaire->name<>\"\") {{ $result->titulaire->name }} @else {{ $result->titulaire->company_name }}  @endif</TD>\n                                <TD>{{ $result->mandataire->name }} </TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_depot){{ date('d/m/Y',strtotime($result->date_depot)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_enregistrement){{ date('d/m/Y',strtotime($result->date_enregistrement)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_effet){{ date('d/m/Y',strtotime($result->date_effet)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_expiration){{ date('d/m/Y',strtotime($result->date_expiration)) }}@endif</TD>\n                            </TR>\n                        @endforeach\n                    </tbody>\n                    </TABLE>\n                    </div>\n                </div>\n            </div>\n        </div>\n    @endif\n    @if($marques_usa_usage->count()>0)\n       <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h4 class=\"panel-title\">\n                    <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse_usage\">Preuve d'usage avant 6 ans <span class=\"badge\">{{ $marques_usa_usage->count() }}</span></a>\n                </h4>\n            </div>\n            <div id=\"collapse_usage\" class=\"panel-collapse collapse\">\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table  class=\"defaultTable sar-table\" style=\"table-layout:auto;\" id=\"tableMarques\" data-show-columns=\"true\" data-language=\"fr\" data-search=\"true\" data-pagination=\"true\" data-id-field=\"id\" data-toggle=\"table\" data-show-toggle=\"true\"  data-reorderable-columns=\"true\" data-cookie=\"true\"\n               data-cookie-id-table=\"saveId\" data-show-export=\"true\" >\n                        <thead>\n                            <TR>\n                                <th data-field=\"Name\" data-sortable=\"true\">{{Lang::choice('texts.Marques',1)}}</TH>\n                                <th data-field=\"Titulaire\" data-sortable=\"true\">{{Lang::choice('texts.Titulaires',1)}}</TH>\n                                <th data-field=\"Mandataire\" data-sortable=\"true\">{{Lang::choice('texts.Mandataires',1)}}</TH>\n                                <TH data-field=\"Date_depot\" data-sortable=\"true\">{{Lang::get('texts.Date_depot')}}</TH>\n                                <TH data-field=\"Date_enregistrement\" data-sortable=\"true\">{{Lang::get('texts.Date_enregistrement')}}</TH>\n                                <TH data-field=\"Date_effet\" data-sortable=\"true\">{{Lang::get('texts.Date_effet')}}</TH>\n                                <TH data-field=\"Date_expiration\" data-sortable=\"true\">{{Lang::get('texts.Date_expiration')}}</TH>\n                            </TR>\n                        </thead>\n                        <tbody>\n                        @foreach ($marques_usa_usage as $result)\n                            <TR>\n                                <TD><a href='/marques/edit/{{ $result->marque->id }}'>{{ $result->marque->name}}</a></TD>\n                                <TD>@if($result->marque->titulaire->name<>\"\") {{ $result->marque->titulaire->name }} @else {{ $result->marque->titulaire->company_name }}  @endif</TD>\n                                <TD>{{ $result->marque->mandataire->name }} </TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_depot){{ date('d/m/Y',strtotime($result->date_depot)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_enregistrement){{ date('d/m/Y',strtotime($result->date_enregistrement)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_effet){{ date('d/m/Y',strtotime($result->date_effet)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_expiration){{ date('d/m/Y',strtotime($result->date_expiration)) }}@endif</TD>\n                            </TR>\n                        @endforeach\n                    </tbody>\n                    </TABLE>\n                    </div>\n                </div>\n            </div>\n        </div>\n    @endif\n     @if($marques_usa_usage_->count()>0)\n       <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h4 class=\"panel-title\">\n                    <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse_usage_\">Preuve d'usage après 6 ans <span class=\"badge\">{{ $marques_usa_usage_->count() }}</span></a>\n                </h4>\n            </div>\n            <div id=\"collapse_usage_\" class=\"panel-collapse collapse\">\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table  class=\"defaultTable sar-table\" style=\"table-layout:auto;\" id=\"tableMarques\" data-show-columns=\"true\" data-language=\"fr\" data-search=\"true\" data-pagination=\"true\" data-id-field=\"id\" data-toggle=\"table\" data-show-toggle=\"true\"  data-reorderable-columns=\"true\" data-cookie=\"true\"\n               data-cookie-id-table=\"saveId\" data-show-export=\"true\" >\n                        <thead>\n                            <TR>\n                                <th data-field=\"Name\" data-sortable=\"true\">{{Lang::choice('texts.Marques',1)}}</TH>\n                                <th data-field=\"Titulaire\" data-sortable=\"true\">{{Lang::choice('texts.Titulaires',1)}}</TH>\n                                <th data-field=\"Mandataire\" data-sortable=\"true\">{{Lang::choice('texts.Mandataires',1)}}</TH>\n                                <TH data-field=\"Date_depot\" data-sortable=\"true\">{{Lang::get('texts.Date_depot')}}</TH>\n                                <TH data-field=\"Date_enregistrement\" data-sortable=\"true\">{{Lang::get('texts.Date_enregistrement')}}</TH>\n                                <TH data-field=\"Date_effet\" data-sortable=\"true\">{{Lang::get('texts.Date_effet')}}</TH>\n                                <TH data-field=\"Date_expiration\" data-sortable=\"true\">{{Lang::get('texts.Date_expiration')}}</TH>\n                            </TR>\n                        </thead>\n                        <tbody>\n                        @foreach ($marques_usa_usage_ as $result)\n                            <TR>\n                                <TD><a href='/marques/edit/{{ $result->marque->id }}'>{{ $result->marque->name}}</a></TD>\n                                <TD>@if($result->marque->titulaire->name<>\"\") {{ $result->marque->titulaire->name }} @else {{ $result->marque->titulaire->company_name }}  @endif</TD>\n                                <TD>{{ $result->marque->mandataire->name }} </TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_depot){{ date('d/m/Y',strtotime($result->date_depot)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_enregistrement){{ date('d/m/Y',strtotime($result->date_enregistrement)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_effet){{ date('d/m/Y',strtotime($result->date_effet)) }}@endif</TD>\n                                <TD data-dateformat=\"DD-MM-YYYY\">@if($result->date_expiration){{ date('d/m/Y',strtotime($result->date_expiration)) }}@endif</TD>\n                            </TR>\n                        @endforeach\n                    </tbody>\n                    </TABLE>\n                    </div>\n                </div>\n            </div>\n        </div>\n    @endif\n    </div> \n</div>\n@endsection\n",
+			"file": "/Library/WebServer/Documents/marques.eredia.eu/resources/views/home.blade.php",
+			"file_size": 15368,
+			"file_write_time": 1455552702000000,
+			"settings":
+			{
+				"buffer_size": 15364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jacqueshuntziger/Desktop/DEV_Site/Ekonis/wp-config.php",
+			"settings":
+			{
+				"buffer_size": 4035,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jacqueshuntziger/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/653C3876-2C34-474C-BFCF-14F2573CC7F9/3cxProv_161225230535_101.3cxconfig",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/HomeController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marque_edit.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/home.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/MarquesController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/titulaire_show.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/marques.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marques.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/marque_show.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/titulaire_edit.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/titulaires_create.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marques_create.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/TitulairesController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/notes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Commands/SetBadge.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/paysdesigne.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/preuve_usage.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/routes.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/emails/connexion.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/public/js/bootbox.min.js",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/app.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/classes_create.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/lang/en/texts.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/lang/fr/texts.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_02_01_074513_Updateformes.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/seeds/DatabaseSeeder.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/titulaires.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/sidebar/menu_marque.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Forme.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Marque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_29_145846_UpdateformkeyMarque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Type.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_25_142345_UpdateFormatMarques.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_25_132236_UpdateNulabletitulaires.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/classes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_19_082737_CreatetableForme.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/MandatairesController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/mandataires.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_19_084446_CreatetableTypePays.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/mandataire_edit.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_19_084230_CreatetableTypes.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_19_082327_CreateForm.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2016_01_12_111105_UpdateMandataires.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/classes_list.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/classes_edit.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/classes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marques_classes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/client.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/docs.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_14_203451_Update_classe.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/users_list.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/print/marque.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/operations_list.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/ClientController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/PrintController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/print/marque_client.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/docs_create.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/docs.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/MarqueDocsFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_14_054448_classe_marque_spe.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/DocumentsController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/operations.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/objections.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/oppositions.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/extension.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/paysdesigne.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/sidebar/menu_client_marque.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/storage/framework/views/30584902f034190b821f61a0ad796bdf",
+		"/Library/WebServer/Documents/marques.eredia.eu/composer.json",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/UserController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/user_edit.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Kernel.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/User.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/auth/login.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/user_create.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/UserEditRequestForm.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/UserRequestForm.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Middleware/CheckAdmin.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/ClassesMarqueRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/ExtensionFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/MandataireFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/MarqueClassFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/NotesFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/PaysFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/PaysMarqueRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/TitulaireCreateRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/UpdateMarqueFormRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/Auth/AuthController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Middleware/CheckRole.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/ClasseMarque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/PaysMarque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marques_a_renouveler.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/models_a_renouveler.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/objections.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/notes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/oppositions.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/StartController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/models_a_renouveler.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/marques_a_renouveler.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_07_172822_UpdateMarqueNotes.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_07_151321_UpdateUser.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_09_01_123804_UpdateUser.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/client/home.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/OperationController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/AlerteController.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/Role.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/config/app.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/print/test.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_04_220856_update_paysMarque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/paysposterieur.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_12_01_145025_create_pays_classes_table.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Extension.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/PaysClasse.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/ClasseExtension.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_10_14_124430_create_pays_marques_table.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/marques_pays.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/resources/views/alertes.blade.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_23_122051_renouvellementMarque.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Middleware/Authenticate.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/app/Http/Requests/MarqueFormEditRequest.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092130_CascadeOperation.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092331_CascadeClasses_Extensions.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092503_CascadeExtensions.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092530_CascadeOpposition.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092521_CascadeObjections.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092123_CascadeAlerte.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_20_092439_CascadeDocuments.php",
+		"/Library/WebServer/Documents/marques.eredia.eu/database/migrations/2015_11_19_153105_create_alertes_table.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nom_fr",
+			"usage_update",
+			"modal-foo",
+			"formes",
+			"typedef",
+			"communai",
+			"documents",
+			"dd",
+			"image",
+			"image-popup-vertical-fit",
+			"modal",
+			"</a>&nbsp;<img src=\"([a-Z].*)",
+			"/a>&nbsp;<img src=\"([a-Z].*)",
+			"</a>&nbsp;<img src=\" (\\w)",
+			"</a>&nbsp;<img src=\" (\\w+)",
+			"</a>&nbsp;<img src=\" (\\w)+",
+			"</a>&nbsp;<img src=\" $1",
+			"</a>&nbsp;<img src=\" \\1",
+			"</a>&nbsp;</td></tr>",
+			"')\">",
+			"<tr class=\"content1\" height=\"18\"><td nowrap align=\"center\">&nbsp;<a href=\"javascript:;\" onclick=\"open_editor('marques_editor.php?action=update&user_database=mall&id=",
+			"<tr class=\"content2\" height=\"18\"><td nowrap align=\"center\">&nbsp;<a href=\"javascript:;\" onclick=\"open_editor('marques_editor.php?action=update&user_database=mall&id=",
+			"</a>&nbsp;</td></tr>",
+			")\">",
+			"<tr class=\"content1\" height=\"18\"><td nowrap align=\"center\">&nbsp;<a href=\"javascript:;\" onclick=\"open_editor('contacts_editor.php?action=update&user_database=mall&id=",
+			"<tr class=\"content2\" height=\"18\"><td nowrap align=\"center\">&nbsp;<a href=\"javascript:;\" onclick=\"open_editor('contacts_editor.php?action=update&user_database=mall&id=",
+			"Modeles",
+			"Tri-dimen",
+			"Tri-diman",
+			"pays",
+			"Details",
+			"Objections",
+			"img",
+			"star",
+			"usage",
+			"pays_classes",
+			"pays_marques",
+			");\n",
+			"extension",
+			"storage",
+			"create",
+			"date",
+			"doc",
+			"archive",
+			"edit",
+			"marque",
+			"endforeach",
+			"marques",
+			"modal-lg",
+			"nothing",
+			"classes",
+			" : ",
+			"'",
+			"navbar",
+			"There were some problems with your input",
+			"data-toggle",
+			"char-sm",
+			"define-chart-row",
+			"create",
+			"                            \n",
+			"data-state-save",
+			"reorderableColumns",
+			"content",
+			"mailgun",
+			"ResetsPasswords",
+			"warning",
+			"navbar-default",
+			"navbar",
+			"nav",
+			"echeance",
+			"ech",
+			"echeance",
+			">\n",
+			";\n",
+			"isset",
+			"wherein",
+			"}()",
+			"');\n",
+			"return response",
+			"use Response",
+			"response",
+			"show",
+			"paginate(2)",
+			">\n",
+			"table-responsive",
+			"responsive",
+			"responsive-",
+			".'",
+			"obligation",
+			"catégorie",
+			"rh",
+			"()))",
+			"BoArial",
+			"\n",
+			"8e1225",
+			"#8e1225",
+			"990033",
+			"8c1528",
+			"#991328",
+			"over",
+			"B2162E",
+			"#B2162E",
+			"paque",
+			"prestige",
+			"appel",
+			"panier",
+			"fa-phone",
+			"fa fa-phone",
+			"18",
+			"prstige",
+			"photo",
+			"thea",
+			"prestige",
+			"pi",
+			"get_stylesheet_uri",
+			"wp_en",
+			"Ouverture",
+			"ouverture",
+			"Conforme",
+			"servez"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"",
+			"\";\"",
+			"\"",
+			";\"",
+			";'",
+			"'",
+			",'description'=>'",
+			"\\'",
+			"76695d",
+			"transparent",
+			"76695d"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Library/WebServer/Documents/marques.eredia.eu/app/Http/Controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 4081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 271.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Library/WebServer/Documents/marques.eredia.eu/resources/views/home.blade.php",
+					"settings":
+					{
+						"buffer_size": 15364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4430,
+								4430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 3.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jacqueshuntziger/Desktop/DEV_Site/Ekonis/wp-config.php",
+					"settings":
+					{
+						"buffer_size": 4035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/da4ba013ce.url-de-test.ws/app/Http/Controllers/apka.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true
+}
